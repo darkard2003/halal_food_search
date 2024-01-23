@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:halal_food_search/colors.dart';
-import 'package:halal_food_search/screens/search_screen/components/custon_divider.dart';
+import 'package:halal_food_search/screens/search_screen/components/custom_divider.dart';
 import 'package:halal_food_search/screens/search_screen/components/location_picker.dart';
 import 'package:halal_food_search/screens/search_screen/components/resturent_tile.dart';
 import 'package:halal_food_search/screens/search_screen/components/settings_button.dart';

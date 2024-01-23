@@ -7,7 +7,6 @@ class GradientContainer extends StatelessWidget {
     this.borderColor = AppColors.cyan,
     this.child,
   });
-
   final Color borderColor;
   final Widget? child;
 
