@@ -165,31 +165,8 @@ class _SearchScreenState extends State<SearchScreen> {
             ),
           ],
         ),
-        child: BottomNavigationBar(
-          useLegacyColorScheme: false,
-          currentIndex: 0,
-          unselectedIconTheme: const IconThemeData(color: AppColors.cyan),
-          selectedIconTheme: const IconThemeData(color: AppColors.cyan),
-          type: BottomNavigationBarType.fixed,
-          backgroundColor: Colors.transparent,
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.search),
-              label: 'Search',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.favorite),
-              label: 'Favorites',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: 'Profile',
-            ),
-          ],
+        child: const BottomAppBar(
+          color: Colors.transparent,
         ),
       ),
     );
